@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jumpers - Fun Inflatables</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Jumpers</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+        </div>
+    </header>
+    <section id="hero" class="slider">
+        <div class="slide active" style="background-image: linear-gradient(135deg,#ff9a9e,#fad0c4);">
+            <h2>Inflatables for Every Celebration</h2>
+            <p>Clean, safe and exciting jumpers for all ages.</p>
+            <button class="cta" id="quote-btn">Request Quote</button>
+        </div>
+        <div class="slide" style="background-image: linear-gradient(135deg,#a18cd1,#fbc2eb);">
+            <h2>We Deliver the Fun</h2>
+            <p>Setup and takedown included—just enjoy!</p>
+            <button class="cta" id="quote-btn2">Request Quote</button>
+        </div>
+    </section>
+    <main>
+        <section id="about" class="container">
+            <h2>About Jumpers</h2>
+            <p>Jumpers brings high-quality inflatables to your backyard parties, corporate events and community gatherings. Our friendly team ensures every rental is clean and secure.</p>
+        </section>
+        <section id="gallery" class="container">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gal-item" style="background-image: linear-gradient(45deg,#ff9a9e,#fecfef);"></div>
+                <div class="gal-item" style="background-image: linear-gradient(45deg,#fbc2eb,#a6c1ee);"></div>
+                <div class="gal-item" style="background-image: linear-gradient(45deg,#fddb92,#d1fdff);"></div>
+                <div class="gal-item" style="background-image: linear-gradient(45deg,#a18cd1,#fbc2eb);"></div>
+            </div>
+        </section>
+        <section id="contact" class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label>Name<br><input type="text" required></label>
+                <label>Email<br><input type="email" required></label>
+                <label>Message<br><textarea rows="4" required></textarea></label>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> Jumpers. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
